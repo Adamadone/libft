@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: azacios <azacios@student.42.fr>            +#+  +:+       +#+        */
+/*   By: adamzacios <adamzacios@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/17 15:49:08 by azacios           #+#    #+#             */
-/*   Updated: 2023/03/03 16:35:54 by azacios          ###   ########.fr       */
+/*   Updated: 2023/03/09 10:49:28 by adamzacios       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,5 +33,15 @@ size_t			ft_strlcpy(char *dst, const char *src, size_t size);
 char			*ft_strdup(char *src);
 size_t			ft_strlcat(char *dst, const char *src, size_t size);
 char			*ft_strnstr(const char *big, const char *little, size_t len);
+void			*ft_memchr(const void *s, int c, size_t n);
+int				ft_memcmp(void *dest, const void *src, size_t n);
+void			*ft_memmove(void *dest, const void *src, size_t n);
+void			*ft_memcpy(void *dest, const void *src, size_t n);
+void			*ft_calloc(size_t nmemb, size_t size);
+void			ft_bzero(void *s, size_t n);
+void			*ft_memset(void *s, int c, size_t n);
+char			*ft_substr(char const *s, unsigned int start, size_t len);
+char			*ft_strjoin(char const *s1, char const *s2);
+
 
 #endif

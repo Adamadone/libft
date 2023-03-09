@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: azacios <azacios@student.42.fr>            +#+  +:+       +#+         #
+#    By: adamzacios <adamzacios@student.42.fr>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/01/17 15:41:23 by azacios           #+#    #+#              #
-#    Updated: 2023/03/03 16:31:47 by azacios          ###   ########.fr        #
+#    Updated: 2023/03/09 10:49:27 by adamzacios       ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -26,6 +26,16 @@ SRCS =	ft_isalpha.c \
 		ft_strlcpy.c \
 		ft_strnstr.c \
 		ft_strlcat.c \
+		ft_memchr.c \
+		ft_memcmp.c \
+		ft_memmove.c \
+		ft_memcpy.c \
+		ft_calloc.c \
+		ft_bzero.c \
+		ft_memset.c \
+		ft_substr.c \
+		ft_strjoin.c \
+		
 
 OBJS = ${SRCS:.c=.o}
 
